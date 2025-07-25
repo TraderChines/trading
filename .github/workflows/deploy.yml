@@ -1,0 +1,38 @@
+# Nome do workflow que aparecerá na aba "Actions" do seu GitHub
+name: Deploy to GitHub Pages
+
+on:
+  # Aciona o workflow sempre que houver um push na branch `main`
+  push:
+    branches:
+      - main
+
+  # Permite que você rode este workflow manualmente pela interface do GitHub
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    # Concede as permissões necessárias para a Action poder fazer o deploy
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' # Mesma versão do seu ambiente de desenvolvimento
+          cache: 'npm'
+
+      - name: Instalar dependências
+        run: npm ci
+
+      - name: Fazer Deploy para o GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./out
