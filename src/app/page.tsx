@@ -9,8 +9,8 @@ const offers = [
   {
     icon: '🤖',
     step: 'Passo 1',
-    title: 'A IA que lê sua tela e te mostra quando operar',
-    description: 'Uma IA visual que identifica padrões, marca zonas e lê o gráfico em tempo real. Ideal para iniciantes e profissionais. Basta abrir a tela — ela faz o resto.',
+    title: 'A IA que vê sua tela e te fala qual será a cor da próxima vela',
+    description: 'Uma IA que identifica padrões e lê o gráfico em tempo real. Ideal para iniciantes e profissionais. Basta abrir a tela — ela faz o resto.',
     price: 'R$47',
     ctaText: 'Quero ativar minha IA',
     ctaLink: '#',
@@ -19,8 +19,8 @@ const offers = [
   {
     icon: '📊',
     step: 'Passo 2',
-    title: 'Use a IA nos momentos mais lucrativos',
-    description: 'O segredo das Sessões Chinesas. Um indicador cirúrgico que sinaliza reversões com até 90% de assertividade. Use a IA apenas quando esse padrão estiver prestes a se formar e opere com confiança.',
+    title: 'Use a IA só nos momentos mais lucrativos com a Estratégia Chinesa',
+    description: 'O segredo das Sessões Chinesas. Um indicador cirúrgico que sinaliza quando operar com até 97% de assertividade. Use a IA apenas quando esse padrão estiver prestes a se formar e opere com confiança.',
     price: 'R$197',
     parcelPrice: 'ou 12x de R$20,37',
     ctaText: 'Quero o Indicador também',
@@ -29,14 +29,14 @@ const offers = [
     features: [
       'Sinais de alerta e ação',
       'Suporte e instalação',
-      'Funciona em qualquer corretora (até demo)',
+      'Funciona em qualquer corretora',
     ],
   },
   {
     icon: '🐞',
     step: 'Passo 3 (Opcional)',
-    title: 'O método que transforma 1K em 10K',
-    description: 'Esse não é para todos. É um método especial, usado apenas por quem já entende o jogo. Funciona com base em um comportamento não corrigido da corretora, que permite multiplicar o valor da conta independente do resultado da operação. Acesso restrito a 2 execuções por dia.',
+    title: 'O método que transforma 1K em 10K com um bug ainda ativo',
+    description: 'Esse não é para todos. É um método especial, usado apenas por quem já entende o jogo. Funciona com base em um comportamento não corrigido da corretora, que permite multiplicar o valor da conta independente do resultado da operação. Acesso restrito a 1 vaga por dia.',
     price: 'R$997',
     ctaText: 'Quero conhecer o método secreto',
     ctaLink: '#',
@@ -64,10 +64,10 @@ export default function Home() {
         <section className="text-center py-20 lg:py-32">
           <div className="container mx-auto px-4">
             <h1 className="font-headline text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-white to-blue-300">
-              Transforme sua tela em uma máquina de leitura do mercado
+              Operar com precisão deixou de ser sorte. Agora é método.
             </h1>
             <p className="mt-6 max-w-3xl mx-auto text-lg md:text-xl text-blue-200/80">
-              Você está prestes a acessar as mesmas ferramentas que uso para prever reversões, operar com confiança e multiplicar bancas com segurança.
+              Você está prestes a acessar as mesmas ferramentas que uso para negocia com confiança e multiplicar bancas com segurança.
             </p>
           </div>
         </section>

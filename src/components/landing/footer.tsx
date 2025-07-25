@@ -18,7 +18,7 @@ export function Footer() {
             </Link>
           </Button>
           <Button asChild variant="ghost" size="icon">
-            <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <Link href="https://instagram.com/Trader.Chines" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
               <Instagram className="h-6 w-6" />
             </Link>
           </Button>

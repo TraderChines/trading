@@ -4,7 +4,7 @@ import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
   title: 'Trader Chinês',
-  description: 'Transforme sua tela em uma máquina de leitura do mercado com IA, precisão estratégica e lucro inteligente.',
+  description: 'Operar com precisão deixou de ser sorte. Agora é método.',
 };
 
 export default function RootLayout({
