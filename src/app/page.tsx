@@ -24,7 +24,7 @@ const offers = [
     price: 'R$197',
     parcelPrice: 'ou 12x de R$20,37',
     ctaText: 'Quero o Indicador também',
-    ctaLink: 'https://bit.ly/estrategia-chinesa-trader',
+    ctaLink: 'https://pay.kiwify.com.br/N2HRXHr',
     ctaVariant: 'default',
     features: [
       'Sinais de alerta e ação',
