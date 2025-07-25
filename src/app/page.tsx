@@ -69,7 +69,7 @@ export default function Home() {
               Operar com precisão deixou de ser sorte. Agora é método.
             </h1>
             <p className="mt-6 max-w-3xl mx-auto text-lg md:text-xl text-blue-200/80">
-              Você está prestes a acessar as mesmas ferramentas do Trader Top 1 Do Mundo para negocia com confiança e multiplicar bancas com segurança.
+              Você está prestes a acessar as mesmas ferramentas do Trader Top 1 do Mundo para negociar com confiança e multiplicar seu investimento com segurança.
             </p>
           </div>
         </section>
