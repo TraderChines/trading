@@ -39,7 +39,7 @@ const offers = [
     description: 'Esse não é para todos. É um método especial, usado apenas por quem já entende o jogo. Funciona com base em um comportamento não corrigido da corretora, que permite multiplicar o valor da conta independente do resultado da operação. Acesso restrito a 1 vaga por dia.',
     price: 'R$997',
     ctaText: 'Quero conhecer o método secreto',
-    ctaLink: '#',
+    ctaLink: 'https://pay.kiwify.com.br/ZxYvdAG',
     ctaVariant: 'secondary',
   },
 ];
