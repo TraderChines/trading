@@ -12,6 +12,7 @@ const offers = [
     title: 'A IA que vê sua tela e te fala qual será a cor da próxima vela',
     description: 'Uma IA que identifica padrões e lê o gráfico em tempo real. Ideal para iniciantes e profissionais. Basta abrir a tela — ela faz o resto.',
     price: 'R$47',
+    parcelPrice: 'ou 11x de R$5,22',
     ctaText: 'Quero ativar minha IA',
     ctaLink: 'https://pay.kiwify.com.br/5FU47SG',
     ctaVariant: 'accent',
