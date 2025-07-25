@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'TradeVision AI',
+  title: 'Trader Chinês',
   description: 'Transforme sua tela em uma máquina de leitura do mercado com IA, precisão estratégica e lucro inteligente.',
 };
 

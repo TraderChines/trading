@@ -52,7 +52,7 @@ export default function Home() {
         <nav className="flex items-center justify-between">
             <div className="flex items-center gap-3">
                 <Logo className="h-8 w-8 text-primary" />
-                <span className="font-headline text-2xl font-bold">TradeVision AI</span>
+                <span className="font-headline text-2xl font-bold">Trader Chinês</span>
             </div>
             <Button asChild className="bg-primary hover:bg-primary/90">
                 <Link href="#offers">Ver Ofertas</Link>

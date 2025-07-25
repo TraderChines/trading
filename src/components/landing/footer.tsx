@@ -9,7 +9,7 @@ export function Footer() {
       <div className="container mx-auto px-4 text-center text-muted-foreground">
         <div className="flex justify-center items-center gap-4 mb-4">
             <Logo className="h-8 w-8 text-primary" />
-            <h3 className="font-headline text-xl font-bold text-white">TradeVision AI</h3>
+            <h3 className="font-headline text-xl font-bold text-white">Trader Chinês</h3>
         </div>
         <div className="flex justify-center space-x-4 mb-6">
           <Button asChild variant="ghost" size="icon">
@@ -23,7 +23,7 @@ export function Footer() {
             </Link>
           </Button>
         </div>
-        <p className="text-sm">&copy; {new Date().getFullYear()} TradeVision AI. Todos os direitos reservados.</p>
+        <p className="text-sm">&copy; {new Date().getFullYear()} Trader Chinês. Todos os direitos reservados.</p>
       </div>
     </footer>
   );
