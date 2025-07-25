@@ -39,7 +39,7 @@ const offers = [
     title: 'O método que transforma 1K em 10K com um bug ainda ativo',
     description: 'Esse não é para todos. É um método especial, usado apenas por quem já entende o jogo. Funciona com base em um comportamento não corrigido da corretora, que permite multiplicar o valor da conta independente do resultado da operação. Acesso restrito a 1 vaga por dia.',
     price: 'R$997',
-    parcelPrice: 'ou 12x de 103,11',
+    parcelPrice: 'ou 12x de R$103,11',
     ctaText: 'Quero conhecer o método secreto',
     ctaLink: 'https://pay.kiwify.com.br/ZxYvdAG',
     ctaVariant: 'secondary',
