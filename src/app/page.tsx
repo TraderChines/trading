@@ -13,7 +13,7 @@ const offers = [
     description: 'Uma IA que identifica padrões e lê o gráfico em tempo real. Ideal para iniciantes e profissionais. Basta abrir a tela — ela faz o resto.',
     price: 'R$47',
     ctaText: 'Quero ativar minha IA',
-    ctaLink: '#',
+    ctaLink: 'https://pay.kiwify.com.br/5FU47SG',
     ctaVariant: 'accent',
   },
   {
